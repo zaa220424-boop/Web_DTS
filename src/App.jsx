@@ -102,7 +102,6 @@ function App() {
           width: isMobile ? "140px" : "200px",
           height: isMobile ? "140px" : "200px",
           borderRadius: "50%", objectFit: "cover",
-          border: "4px solid #4f46e5", marginTop: "20px",
         }}/>
 
         {/* ຊື່ */}
