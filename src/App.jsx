@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import heroImg from "./assets/joseph.jpg";
 import heroImg5 from "./assets/xaisombun.jpeg";
-import heroImg2 from "./assets/img_3800.jpg";
+import heroImg2 from "./assets/img_3800z.jpg";
 import translations from "./translations";
-import heroImg4 from "./assets/jo.jpg";
-import heroImg3 from "./assets/carmeraman.jpg";
+import heroImg4 from "./assets/jone.jpg";
+import heroImg3 from "./assets/carmeraman_0.jpg";
 import heroImg6 from "./assets/zoo.jpg";
 import "./App.css";
 
