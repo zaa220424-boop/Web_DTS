@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Web_DTS/',
+  // ✅ ບໍ່ຕ້ອງມີ base ສຳລັບ Vercel
 })
