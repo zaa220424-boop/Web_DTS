@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   const [lang, setLang] = useState("english");
-  const [showBtn, setShowBtn] = useState(false);
+  const [showBtn, setShowBtn] = useState(true);
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -35,9 +35,9 @@ function App() {
           flexDirection: "column",
           gap: "8px",
           zIndex: 100,
-          opacity: showBtn ? 1 : 0,           // ✅ ຊ່ວງຫາຍ
-        transition: "opacity 0.3s ease",    // ✅ animation ລຽນ
-        pointerEvents: showBtn ? "auto" : "none",  // ✅ ກົດບໍ່ໄດ້ຕອນຫາຍ
+          opacity: showBtn ? 1 : 0, // ✅ ຊ່ວງຫາຍ
+          transition: "opacity 0.3s ease", // ✅ animation ລຽນ
+          pointerEvents: showBtn ? "auto" : "none", // ✅ ກົດບໍ່ໄດ້ຕອນຫາຍ
         }}
       >
         {Object.keys(translations).map((key) => (
@@ -98,20 +98,35 @@ function App() {
         >
           {translations[lang].name}
         </h1>
-        <p
+        <div
           style={{
-            color: "gray",
-            fontStyle: "italic",
-            margin: "0 auto",
-            fontSize: "14px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "4px",
             textAlign: "center",
-            maxWidth: "400px",
-            lineHeight: "1.4",
           }}
         >
-          {translations[lang].bible}
-          {translations[lang].bible2}
-        </p>
+          <p
+            style={{
+              color: "gray",
+              fontStyle: "italic",
+              margin: 0,
+              fontSize: "14px",
+            }}
+          >
+            {translations[lang].bible}
+          </p>
+          <p
+            style={{
+              color: "gray",
+              fontStyle: "italic",
+              margin: 0,
+              fontSize: "14px",
+            }}
+          >
+            {translations[lang].bible2}
+          </p>
+        </div>
         {/* bio */}
         <p
           style={{
@@ -196,6 +211,7 @@ function App() {
             height: "400px",
             marginTop: "10px",
             borderRadius: "12px",
+            objectFit: "cover",
             boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
           }}
         />
@@ -239,12 +255,13 @@ function App() {
         <div
           style={{
             width: "100%",
-            height: "300px",
+            minHeight: "200px", 
             backgroundColor: "#80808061",
             borderRadius: "14px",
             boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
             paddingTop: "50px",
             paddingLeft: "50px",
+            paddingBottom: "30px",
           }}
         >
           <div
@@ -253,6 +270,7 @@ function App() {
               flexDirection: "row",
               gap: "12px",
               textAlign: "center",
+              alignItems: "center", 
             }}
           >
             <p
@@ -277,12 +295,13 @@ function App() {
           <div
             style={{
               fontSize: "15px",
-              marginTop: "50px",
+             paddingTop: "20px",
               display: "flex",
               flexDirection: "row",
               margin: 0,
               gap: "50px",
               fontStyle: "italic",
+              flexWrap: "wrap", 
             }}
           >
             {translations[lang].suport}
