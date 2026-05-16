@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 import heroImg from "./assets/joseph.jpg";
 import heroImg5 from "./assets/xaisombun.jpeg";
-import heroImg2 from "./assets/IMG_3800.jpg";
+import heroImg2 from "./assets/IMG_3800.JPG";
 import translations from "./translations";
-import heroImg4 from "./assets/jo.jpg";
-import heroImg3 from "./assets/carmeraman.jpg";
-import heroImg6 from "./assets/z.jpg";
+import heroImg4 from "./assets/jo.JPG";
+import heroImg3 from "./assets/carmeraman.JPG";
+import heroImg6 from "./assets/Z.JPG";
 import "./App.css";
 
 function App() {
   const [lang, setLang] = useState("english");
-  const [showBtn, setShBtn] = useState(false);
+  const [showBtn, setShowBtn] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
