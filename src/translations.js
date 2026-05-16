@@ -9,8 +9,9 @@ const translations = {
     contact: `My Email Address is:`,
     Prayer: `ຫົວຂໍ້ໃຫ້ອາທິຖານເພື່ອ`,
     prayerPoints1:`* ອາທິຖານເພື່ອການຮຽນຮູ້ ແລະ ເຕີບໃຫຍ່ໃນຄວາມເຊື່ອ.`,
-     prayerPoints2:`* ອາທິຖານເພື່ອງົບປະມານໃນການອອກປະກາດ ແລະ ການເດີນທາງ.`,
-      prayerPoints3:`* ອາທິຖານເພື່ອການອອກປະກາດບໍວ່າຈະເປັນປະເທດ ຫວຽດນາມ, ໄທ, ລາວ.`,
+    prayerPoints2:`* ອາທິຖານເພື່ອງົບປະມານໃນການອອກປະກາດ ແລະ ການເດີນທາງ.`,
+    prayerPoints3:`* ອາທິຖານເພື່ອການອອກປະກາດບໍວ່າຈະເປັນປະເທດ ຫວຽດນາມ, ໄທ, ລາວ.`,
+    team: `ພວກເຮົາເຊື່ອວ່າພຣະເຈົ້າຈະຊົງນຳໃນການອອກໄປປະກາດ ແລະ ພຣະເຈົ້າຈະສະທິດຢູ່ນຳ.`,
   },
   english: {
     language: "English",
@@ -21,9 +22,10 @@ const translations = {
     suport: `For support in Lao:  `,
     contact: `My Email Address is: `,
     Prayer: `Prayer points`,
-   prayerPoints1:`* Pray for learning and growth in faith.`,
-     prayerPoints2:`* Pray for the budget and funding for evangelism and travel.`,
-      prayerPoints3:`* Pray for the mission work and evangelism in Vietnam, Thailand, and Laos.`,
+    prayerPoints1:`* Pray for learning and growth in faith.`,
+    prayerPoints2:`* Pray for the budget and funding for evangelism and travel.`,
+    prayerPoints3:`* Pray for the mission work and evangelism in Vietnam, Thailand, and Laos.`,
+    team: `We believe that God will lead us as we go out to share the Gospel, and that He will be with us.`,
 
   },
   thai: {
@@ -34,24 +36,13 @@ const translations = {
     bio: `สวัสดีครับ ผมชื่อโจเซฟ ตอนนี้ผมกำลังเรียน DTS (Discipleship Training School) ที่ YWAM อุบลราชธานี ก่อนที่จะมาเรียน DTS ผมกำลังเรียนปีที่ 2 คณะวิทยาการคอมพิวเตอร์ (Computer Science) ในช่วงเวลานั้น ผมสัมผัสได้ถึงการทรงเรียกจากพระเจ้า หลังจากที่ได้อธิษฐาน ผมจึงตัดสินใจพักการเรียนที่มหาวิทยาลัยไว้ก่อนเพื่อรียน DTS ผมเชื่อว่านี่คือก้าวแรกของการติดตามพระเยซู ผมกำลังเรียนรู้และเติบโตขึ้นในความเชื่อ ได้เรียนรู้วิธีการดำเนินชีวิตในทางของพระเจ้าและการรับใช้ผู้อื่น ถึงแม้ว่าในบางครั้งจะต้องเจอกับอุปสรรคต่าง ๆ ไม่ว่าจะเป็นเรื่องการเรียนหรือการต้องอยู่ไกลบ้าน แต่ผมยังคงมั่นใจเสมอว่าพระเจ้าทรงอยู่เคียงข้างผม และนำทางผมไปในทุก ๆ ที่ครับ`,
     suport: `For support in Lao:`,
     contact: `My Email Address is: `,
-   Prayer: `หัวข้ออธิษฐาน`,
-   prayerPoints1:`* อธิษฐานเพื่อการเรียนรู้และการเติบโตในความเชื่อ`,
-     prayerPoints2:`* อธิษฐานเพื่องบประมาณในการประกาศและการเดินทาง.`,
-      prayerPoints3:`* อธิษฐานเพื่อการประกาศในประเทศเวียดนาม ไทย และลาว`,
+    Prayer: `หัวข้ออธิษฐาน`,
+    prayerPoints1:`* อธิษฐานเพื่อการเรียนรู้และการเติบโตในความเชื่อ`,
+    prayerPoints2:`* อธิษฐานเพื่องบประมาณในการประกาศและการเดินทาง.`,
+    prayerPoints3:`* อธิษฐานเพื่อการประกาศในประเทศเวียดนาม ไทย และลาว`,
+    team: `พวกเราเชื่อว่าพระเจ้าจะทรงนำในการออกไปประกาศ และพระเจ้าจะทรงสถิตอยู่กับพวกเรา`,
   },
-  korean: {
-    language: "한국어",
-    name: "Joseph's DTS",
-    bible: `시편 32:8`,
-    bible2: `"내가 너의 갈 길을 가르쳐 보이고 너를 주목하여 훈계하리로다"`,
-    bio: `안녕하세요, 제 이름은 요셉입니다. 현재 저는 YWAM 우본에서 DTS (예수제자훈련학교) 과정을 밟고 있습니다.DTS에 오기 전에는 컴퓨터공학을 전공하는 2학년 학생이었습니다. 그러던 중 하나님의 분명한 부르심을 느끼게 되었습니다. 많은 기도 끝에 저는 하나님을 따르기 위한 첫걸음으로 대학교 휴학을 결정하고 이 훈련에 참여하게 되었습니다.지금 저는 믿음 안에서 배우고 성장하며, 하나님의 길을 걷고 이웃을 섬기는 법을 배우고 있습니다. 때로는 학업이나 타향살이로 인해 여러 가지 어려움에 부딪히기도 하지만, 하나님께서 항상 제 곁에 계시며 제가 어디를 가든지 인도해 주신다는 것을 굳게 믿습니다.`,
-    suport: `For support in Lao.`,
-    Prayer: `기도 제목`,
-    contact: `My Email Address is: `,
-   prayerPoints1:`* 배움과 믿음의 성장을 위해 기도해 주세요.`,
-     prayerPoints2:`* 전도와 전도 여행을 위한 예산을 위해 기도해 주세요.`,
-      prayerPoints3:`* 베트남, 태국, 라오스에서의 복음 전파를 위해 기도해 주세요.`,
-  },
+
 };
 
 export default translations;
